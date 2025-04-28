@@ -1,6 +1,7 @@
-import React from 'react';
+
 import { useThemeStore } from '../store/themeStore';
 import { BookOpen, Briefcase, Code, Mail, GraduationCap, Award } from 'lucide-react';
+import ThemeToggle from './ThemeToggle'; // Import your toggle button
 
 const Navbar: React.FC = () => {
   const isDark = useThemeStore((state) => state.isDark);
@@ -16,7 +17,14 @@ const Navbar: React.FC = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 py-4 ${
       isDark ? 'bg-gray-800/80' : 'bg-white/10'
     } backdrop-blur-lg`}>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 relative">
+        
+        {/* Theme Toggle floating at top-right */}
+        <div className="absolute top- right-4">
+          <ThemeToggle />
+        </div>
+
+        {/* Centered Nav items */}
         <ul className="flex justify-center items-center gap-6 text-sm">
           {[
             { id: 'about', label: 'About', icon: BookOpen },
@@ -41,6 +49,7 @@ const Navbar: React.FC = () => {
             </li>
           ))}
         </ul>
+        
       </div>
     </nav>
   );
