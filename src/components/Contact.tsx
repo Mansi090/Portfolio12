@@ -90,21 +90,21 @@ const Contact: React.FC<ContactProps> = ({ email, linkedin, github, twitter }) =
                 Icon: Mail,
                 title: 'Email',
                 subtitle: email,
-                href: `mailto:${email}`,
+                href: `mailto:mansid875@gmail.com`,
                 color: 'bg-gradient-to-br from-blue-500 to-blue-600'
               },
               linkedin && {
                 Icon: Linkedin,
                 title: 'LinkedIn',
                 subtitle: 'Connect with me',
-                href: linkedin,
+                href: "https://www.linkedin.com/in/mansi90/",
                 color: 'bg-gradient-to-br from-blue-600 to-blue-700'
               },
               github && {
                 Icon: Github,
                 title: 'GitHub',
                 subtitle: 'Check out my code',
-                href: github,
+                href:" https://github.com/Mansi090",
                 color: 'bg-gradient-to-br from-purple-600 to-indigo-700'
               },
               twitter && {
