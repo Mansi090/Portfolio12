@@ -57,8 +57,8 @@ export const education = [
     degree: "Bachelor of Technology",
     fieldOfStudy: "Computer Science and Engineering",
     location: "Phagwara, Punjab",
-    startDate: "Aug 2021",
-    endDate: "Jul 2025",
+    startDate: "Aug 2022",
+    endDate: "Jul 2026",
     gpa: "7.88",
     description: "Focused on Data Structures, Web Development, and Machine Learning. Consistent top performer.",
     schoolLogo: "https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -128,7 +128,7 @@ export const projects = [
     description: "A web app that analyzes a user's selfie to recommend clothing and accessory suggestions based on their color tones.",
     technologies: ["React", "Flask", "OpenCV", "Tailwind CSS"],
     liveUrl: "https://color-analysis-app.vercel.app",
-    githubUrl: "https://github.com/mansi09/color-analysis-app",
+    githubUrl: "https://github.com/Mansi090/color-analysis-app",
     imageUrl: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
@@ -136,8 +136,8 @@ export const projects = [
     title: "AI Safety Incident Dashboard",
     description: "Interactive dashboard for managing and tracking AI safety-related incidents, with advanced filtering, dark mode, and analytics features.",
     technologies: ["React", "Tailwind CSS", "Recharts", "Fuse.js"],
-    liveUrl: "https://ai-safety-dashboard.vercel.app",
-    githubUrl: "https://github.com/mansi09/ai-safety-dashboard",
+    liveUrl: "ai-safety-lac.vercel.app",
+    githubUrl: "https://github.com/Mansi090/ai-safety",
     imageUrl: "https://images.pexels.com/photos/7947541/pexels-photo-7947541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
@@ -145,17 +145,17 @@ export const projects = [
     title: "Custom C++ STL Library",
     description: "Personal C++ Standard Template Library (STL) implementation, including custom vector, map, and red-black tree structures.",
     technologies: ["C++", "OOP", "Data Structures"],
-    liveUrl: "https://github.com/mansi09/Custom-STL-Containers-Exploring-OOP-and-RED-BLACK-TREE",
-    githubUrl: "https://github.com/mansi09/Custom-STL-Containers-Exploring-OOP-and-RED-BLACK-TREE",
+    liveUrl: "mansi090.github.io/My_own_stl/",
+    githubUrl: "https://github.com/Mansi090/My_own_stl",
     imageUrl: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     id: "proj4",
-    title: "SpaceKrafts Multiplayer Game",
-    description: "Real-time multiplayer 3D space battle game using Three.js and Cannon.js, focusing on smooth rendering and physics simulation.",
-    technologies: ["Three.js", "Cannon.js", "Socket.io", "JavaScript"],
-    liveUrl: "https://spacekrafts.vercel.app",
-    githubUrl: "https://github.com/mansi09/spacekrafts",
+    title: "GoTogether",
+    description: "GoTogether is a modern ride-sharing web application designed to connect travelers going in the same direction. Built with React 18 and Vite, this platform offers an intuitive interface for offering and finding rides, managing bookings, and coordinating travel plans with fellow users in real-time.",
+    technologies: [" React ", "MongoDB", ,"Cannon.js", "Socket.io", "JavaScript"],
+    liveUrl: "gotogether-carpool.vercel.app",
+    githubUrl: "https://github.com/vipulbeniwal01/GoTogether",
     imageUrl: "https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   }
 ];
