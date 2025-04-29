@@ -7,10 +7,10 @@ export const personalInfo = {
   location: "Jalandhar, Punjab, India",
   email: "mansid875@gmail.com",
   phone: "7988685681",
-  github: "https://github.com/mansi09",
+  github: "https://github.com/Mansi090",
   linkedin: "https://linkedin.com/in/mansi09",
   profileImage: profileImage ,
-  summary: "Passionate and detail-oriented Frontend Developer with a strong foundation in building intuitive, user-friendly web applications. Skilled in delivering high-quality projects across e-commerce, tech, and service industries. Adept at transforming complex requirements into clean, scalable solutions. Committed to continuous learning and creating outstanding digital experiences."
+  summary: "Passionate and detail-oriented Developer with a strong foundation in building intuitive, user-friendly web applications. Skilled in delivering high-quality projects across e-commerce, tech, and service industries. Adept at transforming complex requirements into clean, scalable solutions. Committed to continuous learning and creating outstanding digital experiences."
 };
 
 // Experience
@@ -136,7 +136,7 @@ export const projects = [
     title: "AI Safety Incident Dashboard",
     description: "Interactive dashboard for managing and tracking AI safety-related incidents, with advanced filtering, dark mode, and analytics features.",
     technologies: ["React", "Tailwind CSS", "Recharts", "Fuse.js"],
-    liveUrl: "ai-safety-lac.vercel.app",
+    liveUrl: "https://ai-safety-lac.vercel.app/",
     githubUrl: "https://github.com/Mansi090/ai-safety",
     imageUrl: "https://images.pexels.com/photos/7947541/pexels-photo-7947541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
@@ -145,7 +145,7 @@ export const projects = [
     title: "Custom C++ STL Library",
     description: "Personal C++ Standard Template Library (STL) implementation, including custom vector, map, and red-black tree structures.",
     technologies: ["C++", "OOP", "Data Structures"],
-    liveUrl: "mansi090.github.io/My_own_stl/",
+    liveUrl: "https://mansi090.github.io/My_own_stl/",
     githubUrl: "https://github.com/Mansi090/My_own_stl",
     imageUrl: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
@@ -154,7 +154,7 @@ export const projects = [
     title: "GoTogether",
     description: "GoTogether is a modern ride-sharing web application designed to connect travelers going in the same direction. Built with React 18 and Vite, this platform offers an intuitive interface for offering and finding rides, managing bookings, and coordinating travel plans with fellow users in real-time.",
     technologies: [" React ", "MongoDB", ,"Cannon.js", "Socket.io", "JavaScript"],
-    liveUrl: "gotogether-carpool.vercel.app",
+    liveUrl: "https://gotogether-carpool.vercel.app/",
     githubUrl: "https://github.com/vipulbeniwal01/GoTogether",
     imageUrl: "https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   }

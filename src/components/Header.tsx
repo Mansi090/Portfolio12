@@ -1,5 +1,5 @@
 /** @format */
-
+import cv from '../components/general_cv.pdf';
 import React, { useState, useEffect } from "react";
 import {
 	Mail,
@@ -153,7 +153,7 @@ const Header: React.FC<HeaderProps> = ({
 					
 					<div className='flex-shrink-0'>
 						<a
-							href='/resume.pdf' // <-- Your PDF file path here
+							href={cv} // <-- Your PDF file path here
 							download // <-- Forces download instead of opening
 							className='group relative inline-flex items-center gap-3 bg-white px-8 py-4 rounded-full font-medium shadow-2xl transition-all hover:shadow-3xl hover:scale-105 active:scale-100'>
 							<div className='absolute inset-0 bg-gradient-to-br from-purple-500 to-fuchsia-500 rounded-full opacity-0 group-hover:opacity-10 transition-opacity'></div>
